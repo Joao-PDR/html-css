@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML-5</title>
+</head>
+<body>
+    <h1>Imagen dinamica
+    </h1>
+    <p><h3>tente abrir esse sit em diferentes dispositivos ou simplesmente aumente e diminua o tamanho do seu navegado.</h3></p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/media.png" type="image/png">
+        <img src="imagens/grande.png" alt="imagem flexivel">
+
+    </picture>
+    <h1>Reproduzindo audios</h1>
+    <p><h3>emocionante</h3></p>
+    <audio src="mídia/the one piece is eal.mp3" controls metadata></audio>
+    <h3>OMG!</h3>
+
+        <audio preload="meta"  controls loop>
+            <source src="mídia/can-we-get.mp3" type="audio/mpeg">
+            <source src="mídia/can-we-get.ogg" type="audio/ogg">
+            <source src="mídia/can-we-get.wav" type="audio/wav">
+            <p>infelizmete su navegado não consegue epoduzi audio. <a href="mídia/can-we-get.mp3"> Clique aqui para baixa o aquivo MP3.</a></p>
+        </audio>
+</body>
+</html>
